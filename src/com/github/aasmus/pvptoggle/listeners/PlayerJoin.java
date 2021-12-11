@@ -1,13 +1,12 @@
 package com.github.aasmus.pvptoggle.listeners;
 
+import com.github.aasmus.pvptoggle.PvPToggle;
+import com.github.aasmus.pvptoggle.utils.Util;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-
-import com.github.aasmus.pvptoggle.PvPToggle;
-import com.github.aasmus.pvptoggle.utils.Util;
 
 public class PlayerJoin implements Listener {
 	

@@ -1,11 +1,10 @@
 package com.github.aasmus.pvptoggle.listeners;
 
+import com.github.aasmus.pvptoggle.PvPToggle;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
-
-import com.github.aasmus.pvptoggle.PvPToggle;
 
 public class PlayerLeave implements Listener {
 	

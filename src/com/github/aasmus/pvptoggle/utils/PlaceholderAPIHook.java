@@ -1,9 +1,8 @@
 package com.github.aasmus.pvptoggle.utils;
 
-import org.bukkit.entity.Player;
-
 import com.github.aasmus.pvptoggle.PvPToggle;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
+import org.bukkit.entity.Player;
 
 
 public class PlaceholderAPIHook extends PlaceholderExpansion {

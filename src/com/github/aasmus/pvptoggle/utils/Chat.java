@@ -1,10 +1,8 @@
 package com.github.aasmus.pvptoggle.utils;
 
-import org.bukkit.command.CommandSender;
-
 import com.github.aasmus.pvptoggle.PvPToggle;
-
 import org.bukkit.ChatColor;
+import org.bukkit.command.CommandSender;
 
 public class Chat {
 

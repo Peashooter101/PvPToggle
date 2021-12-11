@@ -1,15 +1,17 @@
 package com.github.aasmus.pvptoggle.utils;
 
-import java.util.Date;
-import java.util.UUID;
-
-import org.bukkit.*;
+import com.github.aasmus.pvptoggle.PvPToggle;
+import com.nametagedit.plugin.NametagEdit;
+import org.bukkit.Color;
+import org.bukkit.Location;
+import org.bukkit.Particle;
+import org.bukkit.World;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import com.github.aasmus.pvptoggle.PvPToggle;
-import com.nametagedit.plugin.NametagEdit;
+import java.util.Date;
+import java.util.UUID;
 
 public class Util {
 	

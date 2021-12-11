@@ -1,12 +1,11 @@
 package com.github.aasmus.pvptoggle.utils;
 
-import java.io.File;
-
+import com.github.aasmus.pvptoggle.PvPToggle;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 
-import com.github.aasmus.pvptoggle.PvPToggle;
+import java.io.File;
 
 public class PersistentData {
 	

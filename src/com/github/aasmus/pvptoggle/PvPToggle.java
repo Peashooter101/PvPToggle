@@ -1,22 +1,21 @@
 package com.github.aasmus.pvptoggle;
 
-import java.io.File;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.UUID;
-
+import com.github.aasmus.pvptoggle.listeners.PlayerChangeWorld;
+import com.github.aasmus.pvptoggle.listeners.PlayerJoin;
+import com.github.aasmus.pvptoggle.listeners.PlayerLeave;
+import com.github.aasmus.pvptoggle.listeners.PvP;
+import com.github.aasmus.pvptoggle.utils.PersistentData;
+import com.github.aasmus.pvptoggle.utils.PlaceholderAPIHook;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.github.aasmus.pvptoggle.listeners.PlayerJoin;
-import com.github.aasmus.pvptoggle.listeners.PlayerLeave;
-import com.github.aasmus.pvptoggle.listeners.PvP;
-import com.github.aasmus.pvptoggle.listeners.PlayerChangeWorld;
-import com.github.aasmus.pvptoggle.utils.PersistentData;
-import com.github.aasmus.pvptoggle.utils.PlaceholderAPIHook;
+import java.io.File;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.UUID;
 
 public class PvPToggle extends JavaPlugin implements Listener {
 	

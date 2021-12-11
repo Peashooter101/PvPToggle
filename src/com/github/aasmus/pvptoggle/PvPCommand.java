@@ -1,14 +1,13 @@
 package com.github.aasmus.pvptoggle;
 
+import com.github.aasmus.pvptoggle.utils.Chat;
+import com.github.aasmus.pvptoggle.utils.Util;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
-
-import com.github.aasmus.pvptoggle.utils.Chat;
-import com.github.aasmus.pvptoggle.utils.Util;
 
 public class PvPCommand implements CommandExecutor {
 
